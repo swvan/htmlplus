@@ -1,0 +1,22 @@
+#layout.typography .weather-icons{
+--weather-black-snowman:'\26c7';
+--weather-black-star:'\2605';
+--weather-black-sun-with-rays:'\2600';
+--weather-cloud:'\2601';
+--weather-comet:'\2604';
+--weather-degree-sign:'\00b0';
+--weather-first-quarter-moon:'\263d';
+--weather-last-quarter-moon:'\263e';
+--weather-lightning:'\2607';
+--weather-rain:'\26c6';
+--weather-snowman-without-snow:'\26c4';
+--weather-snowman:'\2603';
+--weather-sun-behind-cloud:'\26c5';
+--weather-sun:'\2609';
+--weather-thunder-cloud-and-rain:'\26c8';
+--weather-thunderstorm:'\2608';
+--weather-umbrella-with-rain-drops:'\2614';
+--weather-umbrella:'\2602';
+--weather-white-star:'\2606';
+--weather-white-sun-with-rays:'\263c';
+}

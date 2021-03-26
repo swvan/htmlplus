@@ -1,0 +1,53 @@
+/* General */
+#layout.typography{
+    font-family:var(--font-family,system-ui),Arial,Verdana,sans-serif;
+    color:var(--font-color,#333);
+    font-size:var(--font-size, 16px);
+    font-stretch:var(--font-stretch,normal);
+    font-style:var(--font-style,normal);
+    font-variant:var(--font-variant,normal);
+    font-weight:var(--font-weight,300);
+    line-height:var(--line-height,1.2);
+    letter-spacing:var(--letter-spacing,0.02rem);
+    text-align:var(--text-align,left);
+}
+/* Headings */
+#layout.typography h1,
+#layout.typography h2,
+#layout.typography h3,
+#layout.typography h4,
+#layout.typography h5,
+#layout.typography h6{
+    font-family:var(--heading-family,system-ui),Arial,Verdana,sans-serif;
+    color:var(--heading-color,#333);
+    font-size:var(--heading-size, 2.5rem);
+    font-stretch:var(--heading-stretch,normal);
+    font-style:var(--heading-style,normal);
+    font-variant:var(--heading-variant,normal);
+    font-weight:var(--heading-weight,700);
+    line-height:var(--heading-line-height,1.2);
+    letter-spacing:var(--heading-spacing,0.02rem);
+    text-align:var(--heading-align,left);
+    max-width:var(--heading-character-limit,30ch);
+}
+/* Text */
+#layout.typography p,
+#layout.typography blockquote,
+#layout.typography q,
+#layout.typography address,
+#layout.typography cite,
+#layout.typography bdo{max-width:var(--text-character-limit,84ch)}
+/* System */
+#layout.typography .system{font:system-ui}
+#layout.typography .caption{font:caption}
+#layout.typography .icon{font:icon}
+#layout.typography .menu{font:menu}
+#layout.typography .message{font:message-box}
+#layout.typography .small{font:small-caption}
+#layout.typography .status{font:status-bar}
+/* Anchors */
+#layout.typography a{color:var(--anchor-font-color,#333)}
+#layout.typography a:hover{color:var(--anchor-hover-color,#333)}
+#layout.typography a:active{color:var(--anchor-active-color,#333)}
+#layout.typography a:focus{color:var(--anchor-focus-color,#333)}
+#layout.typography a:visited{color:var(--anchor-visited-color,#333)}

@@ -1,0 +1,72 @@
+/* Theme */
+#layout.theme{
+    /* layout */
+    --layout-max-width:;
+    --deconstructed-pancake-child-flex:;
+    --deconstructed-pancake-child-gap:;
+    --deconstructed-pancake-child-margin:;
+    --sidebar-say-columns-min:;
+    --holy-grail-pad:;
+    --twelve-grid-12-position:;
+    --twelve-grid-11-position:;
+    --twelve-grid-10-position:;
+    --twelve-grid-9-position:;
+    --twelve-grid-8-position:;
+    --twelve-grid-7-position:;
+    --twelve-grid-6-position:;
+    --twelve-grid-5-position:;
+    --twelve-grid-4-position:;
+    --twelve-grid-3-position:;
+    --twelve-grid-2-position:;
+    --twelve-grid-1-position:;
+    --repeat-auto-gap:;
+    --line-up-gap:;
+    --line-up-columns:;
+    /* headings */
+    --heading-family:;
+    --heading-color:;
+    --heading-size:;
+    --heading-stretch:;
+    --heading-style:;
+    --heading-variant:;
+    --heading-weight:;
+    --heading-line-height:;
+    --heading-spacing:;
+    --heading-character-limit:;
+    /* text */
+    --font-family:;
+    --font-color:;
+    --font-size:;
+    --font-stretch:;
+    --font-style:;
+    --font-variant:;
+    --font-weight:;
+    --line-height:;
+    --letter-spacing:;
+    --text-character-limit:;
+    /* links */
+    --anchor-font-color:;
+    --anchor-hover-color:;
+    --anchor-active-color:;
+    --anchor-focus-color:;
+    --anchor-visited-color:;
+    /* content */
+    --content-col-gap:;
+    --content-col-justify:;
+    --content-col-align:;
+    --content-row-gap:;
+    --content-row-justify:;
+    --content-row-align:;
+    /* cards */
+    --card-w:;
+    --card-max-w:;
+    --card-min-w:;
+    --card-margin-y:;
+    --card-shadow:;
+    --card-hover-shadow:;
+    --card-bkg:;
+    --card-scale-origin:;
+    --card-scale-time:;
+    /* misc */
+    --aspect-ratio:;
+}

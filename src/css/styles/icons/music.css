@@ -1,0 +1,9 @@
+#layout.typography .music-icons{
+--music-beamed-eighth-notes:'\266b';
+--music-beamed-sixteenth-notes:'\266c';
+--music-eighth-note:'\266a';
+--music-flat-sign:'\266d';
+--music-natural-sign:'\266e';
+--music-quarter-note:'\2669';
+--music-sharp-sign:'\266f';
+}

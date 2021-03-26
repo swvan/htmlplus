@@ -1,0 +1,44 @@
+{
+    "short_name": "APP",
+    "name": "APP FULL NAME",
+    "icons": [
+      {
+        "src": "src/assets/images/icons/logo-192px.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "src/assets/icons/logo-512px.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "index":"/",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#fff",
+    "shortcuts": [
+      {
+        "name": "SHORTCUT NAME",
+        "short_name": "SHORTCUT",
+        "description": "SHORTCUT DESCRIPTION",
+        "url": "/shortcut",
+        "icons": [{ "src": "src/assets/images/icons/logo-192px.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "APP DESCRIPTION",
+    "screenshots": [
+      {
+        "src": "src/assets/images/screenshots/shot1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "src/assets/images/screenshots/shot2.jpg",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+  }

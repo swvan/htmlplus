@@ -1,0 +1,242 @@
+<!doctype html>
+<html encoding="UTF-8" charset="UTF-8" dir="ltr" lang="en-US" language="English" prefix="og:http://ogp.me/ns#" itemtype="http://schema.org/WebPage">
+
+<head>
+	<!-- Configurations -->
+	<title>HTML+</title>
+	<meta name="owner" content="Earl Alexander">
+	<meta name="reply-to" content="earlalex09@gmail.com">
+	<meta name="tel" content="6024738711">
+	<!-- Entity Information -->
+	<meta name="author" content="Earl Alexander,earlalex09@gmail.com">
+	<meta name="designer" content="Earl Alexander,earlalex09@gmail.com">
+	<meta name="copyright" content="SWVAN" />
+	<meta name="copyright-year" content="2020" />
+	<meta name="subject" content="Your website's subject">
+	<meta name="description" content="SITE DESCRIPTIONS">
+	<meta name="Classification" content="You Business Classification">
+	<meta name="category" content="Your Niche">
+	<meta name="keywords" content="3 to 5, Main, Keywords or phrases">
+	<meta name="target" content="all" />
+	<meta name="audience" content="all" />
+	<meta name="coverage" content="Worldwide" />
+	<meta name="distribution" content="Global">
+	<!-- Web Crawlers & SEO -->
+	<!-- Google Analytics -->
+	<meta name="google-site-verification" content="GOOGLE UA CODE" />
+	<meta name="googlebot" content="index,follow">
+	<!-- Yandex Analytics -->
+	<meta name="yandex-verification" content="YANDEX VERIFICATION CODE" />
+	<meta name="yandex" content="index,follow" />
+	<!-- Micrsoft Analytics -->
+	<meta name="msvalidate.01" content="BING VERIFICATION CODE" />
+	<!-- All Crawlers -->
+	<meta name="robots" content="archive,follow,imageindex,index,odp,snippet,translate" />
+	<!-- Facebook -->
+	<meta property="fb:app_id" content="FB APP ID" />
+	<meta property="og:type" content="SITE TYPE" />
+	<meta property="og:title" content="TITLE OF YOUR POST OR PAGE" />
+	<meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
+	<meta property="og:image" content="LINK TO THE IMAGE FILE" />
+	<meta property="og:url" content="PERMALINK" />
+	<meta property="og:site_name" content="SITE NAME" />
+	<!-- Twitter -->
+	<meta name="twitter:title" content="TITLE OF POST OR PAGE">
+	<meta name="twitter:description" content="DESCRIPTION OF PAGE CONTENT">
+	<meta name="twitter:image" content="LINK TO IMAGE">
+	<meta name="twitter:site" content="@USERNAME">
+	<meta name="twitter:creator" content="@USERNAME">
+	<!-- Apple -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="translucent black" />
+	<!-- Microsoft -->
+	<meta name="MSThemeCompatible" content="no" />
+	<meta name="msapplication-navbutton-color" content="translucent black" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+	<!-- Document Settings -->
+	<meta charset="utf-8">
+	<!-- Caching -->
+	<meta http-equiv="Cache-Control" content="public,
+        max-age=1800,
+        max-stale,
+        stale-while-revalidate=86400,
+        stale-if-error=259200" rem="max-age=30minutes" />
+	<!-- Theming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="theme-color" content="#b1cff4" />
+	<meta name="fragment" content="!" />
+	<meta http-equiv="Page-Enter" content="RevealTrans(Duration=1.0,Transition=1)" />
+	<meta http-equiv="Page-Exit" content="RevealTrans(Duration=1.0,Transition=1)" />
+	<!-- Links -->
+</head>
+
+<body>
+	<!--noindex-->
+	<noscript>
+		<!-- No JS Styles -->
+		<style>
+			#NoJS {
+				display: block;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 999999999999;
+				width: 100%;
+				height: 100%;
+				margin: auto
+			}
+		</style>
+		<!-- No JS Viewport -->
+		<object id="NoJS" data="noscript.html"></object>
+        </noscript>
+        <!--/noindex-->
+        <!-- App Header -->
+        <header></header>
+        <!-- App Navigation -->
+        <nav></nav>
+        <!-- App Viewport -->
+        <main></main>
+        <!-- App Footer -->
+        <footer></footer>
+        <!-- Google Analytics -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/rainbow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+        <!-- App JS -->
+        <script type="module">
+            import{View,RegisterComponents}from '/src/js/views/index.js'
+            const bootloader={
+                $:{
+                    dom:element=>document.querySelector(element),
+                    $dom:element=>document.querySelectorAll(element),
+                    shadow:element=>this.querySelector(element).ShadowRoot,
+                    $shadow:element=>this.querySelectorAll(element).ShadowRoot,
+                    parent:element=>element.parentElement,
+                    next:element=>element.nextElementSibling,
+                    prev:element=>element.previousElementSibling,
+                    hash:string=>{
+                        let hash=0
+                        if (string.length==0)return hash
+                        for (let i=0;i<string.length;i++){
+                            char=string.charCodeAt(i)
+                            hash=((hash<<5)-hash)+char6
+                            hash=hash&hash
+                        }
+                        return hash
+                    },
+                    get canonicalURL(){
+                        return {
+                            set:()=>{
+                                const link=document.createElement('link')
+                                link.setAttribute('rel','canonical')
+                                link.setAttribute('href',location)
+                                document.head.appendChild(link)
+                            },
+                            reset:()=>this.dom('link[rel="canonical"]').setAttribute('href',location)
+                        }
+                        
+                    },
+                },
+                get service(){
+                    return {
+                        get register(){
+                            return navigator.serviceWorker
+                            .register('../../service-worker.js',{scope:'/'})
+                            .then(response=>console.log(response))
+                            .catch(error=>console.log(error))
+                        },
+                        get worker(){},
+                    }
+                },
+                title:document?.title,
+                get owner(){
+                    return{
+                        name:this.$.dom('meta[name="owner"]')?.getAttribute('content'),
+                        email:this.$.dom('meta[name="reply-to"]')?.getAttribute('content')
+                    }
+                },
+                get entity(){this.$.dom('meta[name="copyright"]')?.getAttribute('content')},
+                get revised(){return document.lastModified},
+                get environment(){this.$.dom('link[rel="canonical"]')?.href===location.origin?'production':'development'},
+                get analytics(){
+                    return{
+                        session:{},
+                        vendors:{
+                            google:this.$.dom('meta[name="google-site-verification"]')?.getAttribute('content'),
+                            yandex:this.$.dom('meta[name="yandex-verification"]')?.getAttribute('content'),
+                            bing:this.$.dom('meta[name="msvalidate.01"]')?.getAttribute('content'),
+                        },
+                    }
+                },
+                get styles(){
+                    return[
+                        ['/src/css/styles/normalize.css','all'],
+                        ['/src/css/styles/key-frames.css','all'],
+                        ['/src/css/styles/common.css','all'],
+                        ['/src/css/styles/layout.css','all'],
+                        ['/src/css/styles/typography.css','all'],
+                        ['/src/css/styles/icons/general.css','all'],
+                        ['/src/css/styles/icons/arrow.css','all'],
+                        ['/src/css/styles/icons/auto.css','all'],
+                        ['/src/css/styles/icons/currency.css','all'],
+                        ['/src/css/styles/icons/dingbat.css','all'],
+                        ['/src/css/styles/icons/game.css','all'],
+                        ['/src/css/styles/icons/music.css','all'],
+                        ['/src/css/styles/icons/pointer.css','all'],
+                        ['/src/css/styles/icons/religion.css','all'],
+                        ['/src/css/styles/icons/shape.css','all'],
+                        ['/src/css/styles/icons/symbol.css','all'],
+                        ['/src/css/styles/icons/weather.css','all'],
+                        ['/src/css/styles/content.css','all'],
+                        ['/src/css/styles/media-queries/576px.css','(min-width:576px)'],
+                        ['/src/css/styles/media-queries/768px.css','(min-width:768px)'],
+                        ['/src/css/styles/media-queries/992px.css','(min-width:992px)'],
+                        ['/src/css/styles/media-queries/1200px.css','(min-width:1200px)'],
+                        ['/src/css/theme.css','all'],
+                    ]
+                }
+            }
+            window.addEventListener('DOMContentLoaded',event=>{
+                bootloader.$.canonicalURL.set()
+                bootloader.service.register
+                window.html=window.html||{
+                    ...bootloader,
+                    get init(){
+                        window.addEventListener('load',event=>{
+                            if(this.$.dom('body[wc]'))RegisterComponents(
+                                this.$.dom('ui-heading'),
+                                this.$.dom('ui-logo'),
+                                this.$.dom('ui-aside'),
+                                this.$.dom('ui-hero'),
+                                this.$.dom('ui-spacer')
+                            )
+                        })
+                        window.addEventListener('pageshow',event=>{
+                            this.$.dom('main').innerHTML=View.display.content
+                        })
+                        window.addEventListener('online',connection=>{})
+                        window.addEventListener('offline',connection=>{})
+                        window.addEventListener('hashchange',event=>{})
+                        window.addEventListener('languagechange',event=>{})
+                        window.addEventListener('beforeinstallprompt',event=>{})
+                        window.addEventListener('popstate',event=>{})
+                        window.addEventListener('storage',event=>{})
+                        window.addEventListener('abort',event=>{})
+                        window.addEventListener('unhandledrejection',rejection=>{})
+                        window.addEventListener('error',error=>{})
+                        window.addEventListener('pagehide',event=>{})
+                        window.addEventListener('beforeunload',event=>{})
+                        window.addEventListener('unload',event=>navigator
+                        .sendBeacon("/analytics",JSON.stringify(html.analytics.session)))
+                        window.addEventListener('close',exit=>{})
+                        // Mobile
+                        window.addEventListener('orientationchange',event=>{})
+                        window.addEventListener('deviceorientation',event=>{})
+                    },
+                }
+                if(Worker&&navigator.serviceWorker&&customElements)window.html.init
+            })
+        </script>
+    </body>
+</html>
