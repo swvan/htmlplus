@@ -9,20 +9,21 @@ let content
 if (Views[route]) { content = Views[route].content.innerHTML }
 else { content = Views.home.content.innerHTML; name = 'Home' }
 
-export const View = {
-  display: {
-    content: content,
-    name: name
+const View = {
+  Display: {
+    Content: content,
+    Name: name
   },
-  hash: location.hash,
-  origin: location.origin,
-  parameters: new URLSearchParams(location.search),
-  referrer: document.referrer,
-  search: location.search,
-  url: location.href,
-  request: request,
-  routes: Views
+  Hash: location.hash,
+  Origin: location.origin,
+  Parameters: new URLSearchParams(location.search),
+  Referrer: document.referrer,
+  Search: location.search,
+  Url: location.href,
+  Request: request,
+  Routes: Views
 }
+export class ApplicationView{}
 export {
   RegisterComponents
 } from './routes/components/register.js'
